@@ -14,7 +14,6 @@ def print_boxed_text(text, color):
     print(colored(top_bottom_border, color))
     print(colored(text_line, color))
     print(colored(top_bottom_border, color))
-    pass
 
 def main():
     parser = create_parser()

@@ -14,14 +14,11 @@ def print_boxed_text(text, color):
     print(colored(top_bottom_border, color))
     print(colored(text_line, color))
     print(colored(top_bottom_border, color))
-    pass
-    # some comment
 
 def main():
     parser = create_parser()
     args = parser.parse_args()
     print_boxed_text(args.text, args.color)
-    pass # add code here
 
 if __name__ == "__main__":
     main()

@@ -20,6 +20,7 @@ def main():
     parser = create_parser()
     args = parser.parse_args()
     print_boxed_text(args.text, args.color)
+    pass # add code here
 
 if __name__ == "__main__":
     main()

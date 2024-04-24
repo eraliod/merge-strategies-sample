@@ -7,6 +7,7 @@ def create_parser():
     parser.add_argument('text', type=str, help='Text to be printed')
     parser.add_argument('--color', type=str, choices=['white', 'yellow', 'red'], default='yellow', help='Color of the text')
     return parser
+    pass
 
 def print_boxed_text(text, color):
     text_line = f"| {text} |"

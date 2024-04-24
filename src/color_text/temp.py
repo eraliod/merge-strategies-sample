@@ -1,1 +1,0 @@
-"""This is a temp file to demo conflicts in git."""
